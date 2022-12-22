@@ -1,0 +1,125 @@
+header {
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 1%;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+  font-size: 1.2rem;
+}
+header a {
+  color: black;
+  text-decoration: none;
+  padding: 12px 8px 8px 8px;
+  border-radius: 8px;
+}
+header a:hover {
+  background-color: tomato;
+  color: hsl(0deg, 0%, 94%);
+  transition: 0.2s;
+}
+
+html {
+  font-size: 16px;
+  background-color: hsl(0deg, 0%, 94%);
+}
+
+p {
+  font-size: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5%;
+}
+main .hello {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+main .short-text {
+  display: flex;
+  flex-direction: column;
+}
+main h1 {
+  color: hsl(218deg, 74%, 47%);
+  font-size: 4rem;
+}
+main h2 {
+  color: hsl(355deg, 100%, 42%);
+  font-size: 5.2rem;
+  padding-bottom: 2rem;
+}
+main p {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+@media (min-width: 800px) {
+  main {
+    max-width: 800px;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+  }
+  main .short-text {
+    padding-left: 40px;
+  }
+}
+
+footer .social-media {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15%;
+}
+@media (min-width: 500px) {
+  footer .social-media {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 800px) {
+  footer .social-media {
+    margin-top: 13%;
+    margin-bottom: 5%;
+  }
+}
+footer .social-media a {
+  color: black;
+  text-decoration: none;
+  padding: 4px 6px 4px 6px;
+  border-radius: 8px;
+}
+footer .social-media a.active {
+  text-decoration: underline;
+}
+footer .social-media a:hover {
+  background-color: tomato;
+  transition: 0.2s;
+  color: hsl(0deg, 0%, 94%);
+}/*# sourceMappingURL=style.css.map */
