@@ -45,38 +45,38 @@ h3 {
   font-size: 1.6rem;
 }
 
-main {
+.home {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-top: 5%;
 }
-main .hello {
+.home .hello {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2%;
 }
-main .short-text {
+.home .short-text {
   display: flex;
   flex-direction: column;
 }
-main h1 {
+.home h1 {
   color: hsl(218deg, 74%, 47%);
   font-size: 4rem;
 }
-main h2 {
+.home h2 {
   color: hsl(355deg, 100%, 42%);
   font-size: 5.2rem;
   padding-bottom: 2rem;
 }
-main p {
+.home p {
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
 }
 @media (min-width: 800px) {
-  main {
+  .home {
     max-width: 800px;
     flex-direction: row;
     align-items: center;
@@ -84,9 +84,63 @@ main p {
     margin-right: auto;
     margin-top: 10%;
   }
-  main .short-text {
+  .home .short-text {
     padding-left: 40px;
   }
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.contact a {
+  text-decoration: none;
+}
+.contact a h1 {
+  color: black;
+  font-size: 2rem;
+}
+.contact a h2 {
+  color: black;
+  font-size: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+.contact a h2:hover {
+  background-color: tomato;
+  color: hsl(0deg, 0%, 94%);
+  transition: 0.2s;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.portfolio a {
+  text-decoration: none;
+}
+.portfolio a h1 {
+  color: black;
+  font-size: 2rem;
+}
+.portfolio a h2 {
+  color: black;
+  font-size: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+.portfolio a h2:hover {
+  background-color: tomato;
+  color: hsl(0deg, 0%, 94%);
+  transition: 0.2s;
 }
 
 footer .social-media {
